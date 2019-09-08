@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2806BD721891267317205B9C /* Pods_Events.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6E450CAA3D3B500D490062 /* Pods_Events.framework */; };
 		40166A2D2320DEEC00A20AB5 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40166A2C2320DEEC00A20AB5 /* Validator.swift */; };
+		4046FB8023256C7A00C1CC7E /* qrcodeGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046FB7F23256C7A00C1CC7E /* qrcodeGeneratorViewController.swift */; };
 		4069751A23240ABA00558355 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4069751923240ABA00558355 /* Speaker.swift */; };
 		4069751C2324AE4A00558355 /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4069751B2324AE4A00558355 /* infoViewController.swift */; };
 		406975202324D5BB00558355 /* aboutEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4069751F2324D5BA00558355 /* aboutEventViewController.swift */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		40166A2C2320DEEC00A20AB5 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		4046FB7F23256C7A00C1CC7E /* qrcodeGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrcodeGeneratorViewController.swift; sourceTree = "<group>"; };
 		4069751923240ABA00558355 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 		4069751B2324AE4A00558355 /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
 		4069751F2324D5BA00558355 /* aboutEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutEventViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				7720A14323153F1100EB67FB /* timeLineViewController.swift */,
 				77B6CC05231441D4003AE84C /* profileViewController.swift */,
 				4069751B2324AE4A00558355 /* infoViewController.swift */,
+				4046FB7F23256C7A00C1CC7E /* qrcodeGeneratorViewController.swift */,
 			);
 			path = "Main module";
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4046FB8023256C7A00C1CC7E /* qrcodeGeneratorViewController.swift in Sources */,
 				406975202324D5BB00558355 /* aboutEventViewController.swift in Sources */,
 				4069751C2324AE4A00558355 /* infoViewController.swift in Sources */,
 				77B6CBF023143B37003AE84C /* AppDelegate.swift in Sources */,

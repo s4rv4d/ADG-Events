@@ -21,6 +21,7 @@ class profileViewController: UIViewController {
     @IBOutlet weak var detailView: UIView!
     @IBOutlet weak var infoView: UIImageView!
     @IBOutlet weak var profileImageview: UIImageView!
+    @IBOutlet weak var qrView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,11 +41,16 @@ class profileViewController: UIViewController {
     func setupTapGestureRecog() {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.viewTapped))
         let infoTap = UITapGestureRecognizer(target: self, action: #selector(self.goToInfo))
+        let qrTap = UITapGestureRecognizer(target: self, action: #selector(self.qrTapped))
+        
         adgView.addGestureRecognizer(tapGesture)
         adgView.isUserInteractionEnabled = true
         
         infoView.addGestureRecognizer(infoTap)
         infoView.isUserInteractionEnabled = true
+        
+        qrView.addGestureRecognizer(qrTap)
+        qrView.isUserInteractionEnabled = true
     }
     
     func setupShadow(){
@@ -92,6 +98,16 @@ class profileViewController: UIViewController {
         guard let vc = UIStoryboard(name: "Main", bundle: .main).instantiateViewController(withIdentifier: "infoViewController") as? infoViewController else {
             fatalError("could'nt init infoViewController")
         }
+        self.present(vc, animated: true, completion: nil)
+    }
+    
+    @objc func qrTapped() {
+        let regNo = UserDefaults.standard.string(forKey: "regnumber")
+        
+        guard let vc = UIStoryboard(name: "Main", bundle: .main).instantiateViewController(withIdentifier: "qrcodeGeneratorViewController") as? qrcodeGeneratorViewController else {
+            fatalError("could'nt init infoViewController")
+        }
+        vc.regNo = regNo
         self.present(vc, animated: true, completion: nil)
     }
     

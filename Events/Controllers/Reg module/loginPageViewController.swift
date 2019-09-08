@@ -97,14 +97,14 @@ class loginPageViewController: UIViewController, UITextFieldDelegate {
     //MARK:- Keyboard will show/hide notificatin calling functions
     @objc func keyBoardWillShow(notification: Notification){
         stackView.spacing = 20.0
-        stackTop.constant = 5.0
+        stackTop.constant = 10.0
         UIView.animate(withDuration: 0.5, animations: {
             self.view.layoutIfNeeded()
         })
     }
     
     @objc func keyBoardWillHide(notification: Notification){
-        stackTop.constant = 100.0
+        stackTop.constant = 46.0
         stackView.spacing = 50.0
         UIView.animate(withDuration: 0.5, animations: {
             self.view.layoutIfNeeded()

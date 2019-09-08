@@ -50,7 +50,7 @@
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ik-oF-sfX">
                                         <rect key="frame" x="30" y="112" width="354" height="260"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tt" translatesAutoresizingMaskIntoConstraints="NO" id="tO5-k7-xZt">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 128" translatesAutoresizingMaskIntoConstraints="NO" id="tO5-k7-xZt">
                                                 <rect key="frame" x="0.0" y="0.0" width="354" height="260"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="tO5-k7-xZt" secondAttribute="height" multiplier="177:130" id="OmF-wd-TwV"/>
@@ -705,7 +705,7 @@
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQq-13-3vg">
                                                     <rect key="frame" x="17" y="64" width="337" height="410"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <mutableString key="text">Apple Developers Group (ADG) is a name synonymous with excellence, simplicity and dedication. It is a registered student community at VIT, Vellore established under the Apple University program. A coterie of talented minds seeking not just success but perfection. The mentors and the members here, join hands in successfully pulling off hack-a-thon such as Hackgrid and engaging workshops like iOS fusion and Unidev. Hackgrid encourages young developers to come up with scintillating technical solutions to real world problems. iOS fusion aims at giving a hands on experience of iOS app development to all the tech enthusiasts whereas Unidev takes future developers into the realm of augmented reality. </mutableString>
+                                                    <string key="text">Apple Developers Group (ADG) is a name synonymous with excellence, simplicity and dedication. It is a registered student community at VIT, Vellore established under the Apple University program. A coterie of talented minds seeking not just success but perfection. The mentors and the members here, join hands in successfully pulling off hack-a-thon such as Hackgrid and engaging workshops like iOS fusion and Unidev. Hackgrid encourages young developers to come up with scintillating technical solutions to real world problems. iOS fusion aims at giving a hands on experience of iOS app development to all the tech enthusiasts whereas Unidev takes future developers into the realm of augmented reality. </string>
                                                     <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -1095,6 +1095,7 @@
     </scenes>
     <resources>
         <image name="ADGlogo" width="128.33332824707031" height="132.33332824707031"/>
+        <image name="Group 128" width="343" height="262"/>
         <image name="ababab" width="192" height="116.33333587646484"/>
         <image name="abouu" width="366" height="288.33334350585938"/>
         <image name="backNew" width="46.333332061767578" height="24.333333969116211"/>
@@ -1111,7 +1112,6 @@
         <image name="sarvad" width="366" height="185.33332824707031"/>
         <image name="test2" width="366" height="312.66665649414062"/>
         <image name="timeline" width="33.333332061767578" height="33.333332061767578"/>
-        <image name="tt" width="343" height="262"/>
         <image name="tushar" width="366" height="185.33332824707031"/>
     </resources>
 </document>

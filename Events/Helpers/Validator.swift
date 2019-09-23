@@ -46,7 +46,7 @@ struct UserNameValidator: ValidatorConvertible {
         //        }
         
         do {
-            if try NSRegularExpression(pattern: "^[0-9]{2}[A-Z]{3}[0-9]{4}$",  options: .caseInsensitive).firstMatch(in: value, options: [], range: NSRange(location: 0, length: value.count)) == nil {
+            if try NSRegularExpression(pattern: "^[0-9]{2}[A-Z]{3}[0-9]{4}$").firstMatch(in: value, options: [], range: NSRange(location: 0, length: value.count)) == nil {
                 throw ValidationError("Invalid registration number, registration number must be in the format of XX(Branch)XXXX")
             }
         } catch {

@@ -23,6 +23,7 @@ class profileViewController: UIViewController {
     @IBOutlet weak var profileImageview: UIImageView!
     @IBOutlet weak var qrView: UIImageView!
     
+    //MARK: - Main functions
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -65,6 +66,7 @@ class profileViewController: UIViewController {
     }
     
     func setupView() {
+        //storing details in userdefaults
         let name = UserDefaults.standard.string(forKey: "name")
         let regNo = UserDefaults.standard.string(forKey: "regnumber")
         
